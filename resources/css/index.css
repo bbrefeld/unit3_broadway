@@ -51,6 +51,10 @@ span {
   color: black;
 }
 
+a[href^=tel] {
+text-decoration:inherit;
+color: inherit;
+}
 
 /* single id selectors */
 #about {
