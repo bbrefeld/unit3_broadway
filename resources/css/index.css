@@ -19,6 +19,7 @@ header {
 
 footer {
   background-color: dimgray;
+  text-align: left;
 }
 
 h1 {
@@ -39,6 +40,12 @@ a {
   color: white;
 }
 
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 
 /* single id selectors */
 #about {
@@ -50,9 +57,19 @@ a {
 #information h2 {
   font-size: 23px;
   color: white;
+  background-image: url("../images/building.png");
+}
+
+header li {
+  margin: 16px;
 }
 
 footer p {
   font-size: 11px;
   color: white;
+  display: inline;
+}
+
+footer li, footer ul, footer nav {
+  display: inline;
 }
